@@ -1,0 +1,15 @@
+[package]
+name = "Decentralized_Betting"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Decentralizedbetting = '0x00822102e8d0b7ac90d78c0255d7961d6b8edfc9aeaa3ff94a13cc16a13c2fdc'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
